@@ -17,7 +17,7 @@ const NavBar = () => {
       item xs={8}
       >
         <h2>
-          <b> RTLForecast </b>
+          <b> LocalTime:  </b>
         </h2>
       </Grid>
         <Grid 

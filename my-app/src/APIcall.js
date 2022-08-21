@@ -8,11 +8,10 @@ export const testValidation = async () => {
         params: 
             {
                 latitude,
-                longitude
+                longitude,
+                current_weather: true,
             },
     })
-
-    console.log(valueAPI)
     return valueAPI;
 
 }
